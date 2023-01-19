@@ -14,7 +14,6 @@ Object.defineProperty(rectangle, "y", {
         this.y = y;
     }
 });
+
 rectangle.x = 10;
-rectangle.y = 2;
-console.log(rectangle.area);
-// expect output: 20
+// GENERATE ERROR: RangeError: Maximum call stack size exceeded
