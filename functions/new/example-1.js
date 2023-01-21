@@ -20,8 +20,8 @@ const person1 = {
         return ((new Date()).getFullYear() - this.year);
     }
 };
-console.log(person);
+console.log(person1);
 // expect output: { name: 'Sheldon Lee Cooper', city: 'Galveston', year: 1980, getAge: [Function: getAge] }
 
-console.log(person.getAge());
+console.log(person1.getAge());
 // expect output: 43
