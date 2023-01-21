@@ -23,3 +23,8 @@ console.log(person1);
 
 console.log(person1.getAge());
 // expect output: 43
+
+console.log(person.getAge === person1.getAge);
+// expect output: false
+// This value is false cause the factory creates getAge for each the person
+
