@@ -5,7 +5,7 @@ const language = {
 };
 const {name: n1, author: a1, year: y1} = language;
 console.log(n1, a1, y1);
-
+// expect output: C Dennis Ritchie 1972
 
 const language1 = {
     name: "Fortran",
@@ -18,3 +18,4 @@ const language1 = {
 
 const {name: n, author: a, year: y, company: {name: c}} = language1;
 console.log(n, a, y, c);
+// expect output: Fortran John Backus 1924 Fortran INC
