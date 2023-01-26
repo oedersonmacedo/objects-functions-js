@@ -28,3 +28,4 @@
    - For the guarantee that the objects compared objects are equivalent, it's necessary to verify their prototypes.
  - #### inheritance
    - The main purpose the inheritance is the code reuse, decreasing the duplication code.
+   - 
