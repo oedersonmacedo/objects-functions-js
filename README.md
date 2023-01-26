@@ -16,4 +16,12 @@
  - It's possible to use keys in time of execution
  - It's possible to assign properties to objects through their reference
  - It's possible to access it's values directly
- -  #### Undefined and null
+ - #### Undefined and null
+   - A queried variable returns the type undefined when the key is not found.
+   - What the difference in the types undefined and null?
+     - The undefined type is used when variable is not found.
+     - The null when can intentionallity to say thet there is an absence of any value for that variable.
+   - Never assign null or undefined, if the intention is delete a property, to use the operator delete
+ - #### Comparison of objects
+   -
+   -
