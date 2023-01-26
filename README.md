@@ -35,4 +35,14 @@
    - Object.setPrototypeOf: To allow the interaction with the object prototype for set the object that will inherit the property informed in second parameter
    - Object.create: Creates a obejct the passing the its prototype as a parameter. Be careful with the Object.create and to pass it as a value null, it will lose some aperations, example hasOwnProperty;
    - If the property exists in both the object and the prototype, the object's own property is returned, making the shadow to the property prototype.
- - 
+ - #### Object API
+   - Object.assign: Copies the properties of the objects passed by parameter for the taget object, which is returned;
+   - Object.keys: Returns the keys of the properties of object;
+   - Object.values: Returns the values of the properties ob object;
+   - Object.entries: Returns properties in pairs, represented with keys and values;
+   - Object.is: Compares two objectsconsidering the data types similarly to the equivalent operator (===);
+   - defineProperty: Defines a property, being possible to configure the its edition, or else its visualition. Having the following properties:
+     - configurable: Allows which a given property to be cleared;
+     - enumerable: Allows which a given property to be enumerated;
+     - value: Sets the values of a given property;
+     - writable: Allows which a given property have its value modified;
