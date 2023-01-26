@@ -65,4 +65,7 @@
    - standardized by ECMA-404;
    - What is JSON used for?
      - Used as an alternative to XML, for the data tranference structured between systems
-   - data types: Number, String, Boolean Object, Array and null
+   - Data types: Number, String, Boolean Object, Array and null;
+   - JSON.stringfy: Converts a determined data type for JSON;
+   - JSON.parse: Converts a JSON for a determined data type;
+   - JSON and Object are two completely different concepts;
