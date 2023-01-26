@@ -23,5 +23,8 @@
      - The null when can intentionallity to say thet there is an absence of any value for that variable.
    - Never assign null or undefined, if the intention is delete a property, to use the operator delete
  - #### Comparison of objects
-   -
-   -
+   - When is compared an object, it's done through its reference. Even if the two objects is equals keys and values, they will be considered differents.
+   - One way is to go through analyzing each key and value if the two objects are equivalent.
+   - For the guarantee that the objects compared objects are equivalent, it's necessary to verify their prototypes.
+ - #### inheritance
+   - The main purpose the inheritance is the code reuse, decreasing the duplication code.
