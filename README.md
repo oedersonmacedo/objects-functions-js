@@ -69,3 +69,10 @@
    - JSON.stringfy: Converts a determined data type for JSON;
    - JSON.parse: Converts a JSON for a determined data type;
    - JSON and Object are two completely different concepts;
+
+ - #### Function
+   - A function is an object which contains an executable block code;
+   - What is the difference between function declaration and expression?
+     - The main difference is between the preload order. The function declaration hoist the function for its pre-loading,being able to call it even before its declaration. The function expression is not accept, as its use can only be below its declaration. this is called 'hoisting'.
+   - The functions are firs class, that is, they can be assingned the a variable, passed by parameters or returned from another function;
+   - It's possible to invoke a function with fewer or more paratemeter, not necessary following what's declared
