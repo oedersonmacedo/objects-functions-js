@@ -58,3 +58,11 @@
      | seal | No | Yes | Yes | No |
      | freeze | No | Yes | No | No |
 
+ - #### JSON
+   - Javascript Object Notation;
+   - Is a data interchange format, derived the JavaScript language;
+   - Discovered by Douglas Crockford;
+   - standardized by ECMA-404;
+   - What is JSON used for?
+     - Used as an alternative to XML, for the data tranference structured between systems
+   - data types: Number, String, Boolean Object, Array and null
