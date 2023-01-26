@@ -76,3 +76,7 @@
      - The main difference is between the preload order. The function declaration hoist the function for its pre-loading,being able to call it even before its declaration. The function expression is not accept, as its use can only be below its declaration. this is called 'hoisting'.
    - The functions are firs class, that is, they can be assingned the a variable, passed by parameters or returned from another function;
    - It's possible to invoke a function with fewer or more paratemeter, not necessary following what's declared
+   - Can set default values for each of a function's parameters
+   - Through the implicit variable arguments it is possible to access the parameters of the invoked function
+   - It is also possible to access the parameters of the invoked function through the rest parameter.
+   - The rest parameter must always be the last parameter in the list of parameters
