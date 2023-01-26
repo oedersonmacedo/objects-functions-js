@@ -57,4 +57,4 @@
      | preventExtensions | No | Yes | Yes | Yes |
      | seal | No | Yes | Yes | No |
      | freeze | No | Yes | No | No |
-     
+
