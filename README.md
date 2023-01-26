@@ -29,3 +29,10 @@
  - #### inheritance
    - The main purpose the inheritance is the code reuse, decreasing the duplication code.
    - The inheritance in JavaScript is performed for objects and not class, as others languages.
+   - `__proto__`: The property is a reference for the object prototype.
+   - Why the property not print if has in other tier?
+     - In order not to have enviroment with polluted information, the system undestands that it should not display prop in the pattern of what it inrerits.
+   - Object.setPrototypeOf: To allow the interaction with the object prototype for set the object that will inherit the property informed in second parameter
+   - Object.create: Creates a obejct the passing the its prototype as a parameter. Be careful with the Object.create and to pass it as a value null, it will lose some aperations, example hasOwnProperty;
+   - If the property exists in both the object and the prototype, the object's own property is returned, making the shadow to the property prototype.
+ - 
