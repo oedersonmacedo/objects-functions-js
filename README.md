@@ -46,3 +46,15 @@
      - enumerable: Allows which a given property to be enumerated;
      - value: Sets the values of a given property;
      - writable: Allows which a given property have its value modified;
+  - preventExtensions, seal and freeze:
+     - Object.preventExtensions: Prevent which the object has news properties, but allows to modify or removing existing properties;
+     - Object.seal: Prevent which the object has news properties or delete existing properties, but allows to modify existing properties;
+     - Object.freeze: Prevent which the object has news properties, delete or modify existing properties;
+ 
+ 
+     | Method | Create | Read | Update | Delete |
+     | ------ | ------ | ------ | ------ | ------ |
+     | preventExtensions | No | Yes | Yes | Yes |
+     | seal | No | Yes | Yes | No |
+     | freeze | No | Yes | No | No |
+     
