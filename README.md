@@ -117,3 +117,12 @@
        - in short, a closure is a function with with a static scope chain that is defined at the time the function is created, so all functions in the JavaScript language are closures;
        - Although static the scope chain references objects that are in memory and can be shared by more than one function;
  - __Exception handling:__ In the JavaScript language, any data type can be thrown as an error interrupting the flow of execution;
+ - #### Destructuring
+   - Throgh destructuring can to extract values and objects of in a simpler more direct way;
+   - Is possible to extract the values of a Array creating variables in dorder, according in the position of each element;
+   - We can ignore an element of the array by not specifying a name for the variable;
+   - It's possible to define default values for each of the variables;
+   - To extract the values of an object it's necessary to reference the key of each of the properties;
+   - It's possible to define different names for the variables in relationto the keys of the objects properties;
+   - We can also reference the properties of objects that are inside other objects;
+   - We can also apply destructuring to function parameters both with arrays and objects;
