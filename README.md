@@ -98,3 +98,8 @@
    - The constructor function returns a new object when invoked via the operator new
    - Every function has a property called prototype, which is linked to the `__proto__`
    - Don't forget of to use the new operator when using constructor functions
+ - #### instanceof
+   - Is possible to verify if an object was created through a certain constructor function by analyzing its chain of prototypes
+   - What's the difference between the typeof and the instanceof?
+     - typeof: Returns the data type the variable analyzed
+     - instanceof: Compare the chain of prototype if the variable compares at some pont is the type being compared;
