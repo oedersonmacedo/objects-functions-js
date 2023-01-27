@@ -69,7 +69,6 @@
    - JSON.stringfy: Converts a determined data type for JSON;
    - JSON.parse: Converts a JSON for a determined data type;
    - JSON and Object are two completely different concepts;
-
  - #### Function
    - A function is an object which contains an executable block code;
    - What is the difference between function declaration and expression?
@@ -80,10 +79,22 @@
    - Through the implicit variable arguments it is possible to access the parameters of the invoked function
    - It is also possible to access the parameters of the invoked function through the rest parameter.
    - The rest parameter must always be the last parameter in the list of parameters
-
  - __this:__ There is an implicit variable called of 'this' that make reference to the object responsible for its invocation;
  - __getter and setter__
    - They serve for to intercept the access to the properties of a given object;
    - Use different keys for the function and the object property;
    - Through the object APIdefineProperty operation, it's also possible to define getter and setter functions;
- - 
+ - #### call, apply and bind
+   - Through the operations call and apply is possible to invoke a function passing the 'this' as parameter;
+   - What's the diffence between call and apply?
+     - The difference is in receiving the parameters. In call, receivs the variable as needed. Using apply you will have to pass it as an array;
+   - The bind operation operation allows you to encapsulate this within the function returning it;
+ - #### new 
+   - It allows which creates a new by classes and function;
+   - The object is to reuse more the same structure more;
+   - The factory function, is a standard type, returns a new object after has invoked directly
+   - What do for to eliminate the duplication and to reuse properties betwen the objects?
+     - This would happen using the concept already learned, *inheritance*
+   - The constructor function returns a new object when invoked via the operator new
+   - Every function has a property called prototype, which is linked to the `__proto__`
+   - Don't forget of to use the new operator when using constructor functions
