@@ -80,3 +80,10 @@
    - Through the implicit variable arguments it is possible to access the parameters of the invoked function
    - It is also possible to access the parameters of the invoked function through the rest parameter.
    - The rest parameter must always be the last parameter in the list of parameters
+
+ - __this:__ There is an implicit variable called of 'this' that make reference to the object responsible for its invocation;
+ - __getter and setter__
+   - They serve for to intercept the access to the properties of a given object;
+   - Use different keys for the function and the object property;
+   - Through the object APIdefineProperty operation, it's also possible to define getter and setter functions;
+ - 
