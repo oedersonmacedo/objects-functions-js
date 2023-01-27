@@ -106,3 +106,13 @@
  - #### Arrow function
    - Has a simpler and more straightforward approach to writing a function and can improve code readability in many situations;
    - The Arrows Functions don't have the its own variables this and arguments;
+ - #### Execution Context
+   - Is the environment when the code is executed, consisting of the variable object,scope chain and this;
+   - Within a function, it's possible to access variables that exist outside of it, through the scope chain;
+   - It's not possible to access a variable that was declared inside a function from outside;
+   - Every function has a variable 'this' that contains the reference to the object for its invocation;
+     - #### Closures
+       - The language JavaScript all function allows the use of variables that have not been declared or passed as a parameter;
+       - The problem is that as the functions are the first class, depending on the situation there could be an ambiguity this was solved with the closure concept;
+       - in short, a closure is a function with with a static scope chain that is defined at the time the function is created, so all functions in the JavaScript language are closures;
+       - Although static the scope chain references objects that are in memory and can be shared by more than one function;
