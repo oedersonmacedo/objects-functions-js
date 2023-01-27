@@ -116,3 +116,4 @@
        - The problem is that as the functions are the first class, depending on the situation there could be an ambiguity this was solved with the closure concept;
        - in short, a closure is a function with with a static scope chain that is defined at the time the function is created, so all functions in the JavaScript language are closures;
        - Although static the scope chain references objects that are in memory and can be shared by more than one function;
+ - __Exception handling:__ In the JavaScript language, any data type can be thrown as an error interrupting the flow of execution;
