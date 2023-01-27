@@ -103,3 +103,6 @@
    - What's the difference between the typeof and the instanceof?
      - typeof: Returns the data type the variable analyzed
      - instanceof: Compare the chain of prototype if the variable compares at some pont is the type being compared;
+ - #### Arrow function
+   - Has a simpler and more straightforward approach to writing a function and can improve code readability in many situations;
+   - The Arrows Functions don't have the its own variables this and arguments;
